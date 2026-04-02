@@ -8,3 +8,8 @@ class Greeting {
         System.out.println(" hello anil");
     }
 }
+class Invitation {
+    static void main() {
+        System.out.println("welcome sir");
+    }
+}
