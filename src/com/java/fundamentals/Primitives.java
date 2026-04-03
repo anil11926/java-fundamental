@@ -55,7 +55,7 @@ public class Primitives {
         long aadhaarNumber = 458628915634L;
         long mobileNumber = 8882226667L;
         long populationOfIndia = 1400000000L;
-        System.out.println("---------------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------------");
         System.out.println("Aadhaar Number: " + aadhaarNumber);
         System.out.println("Mobile Number:" + mobileNumber);
         System.out.println("Population Of India" + populationOfIndia);
