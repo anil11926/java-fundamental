@@ -25,7 +25,7 @@ public class Primitives {
 
         short totalMarks = 459;
         System.out.println("Total Marks; " + totalMarks);
-        System.out.println("-------------------------------------------");
+        System.out.println("----------------------------------------------");
 
 
         //manufacturing year, days in expiry
