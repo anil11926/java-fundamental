@@ -37,6 +37,42 @@ public class Operators {
         System.out.println( num1++ > num2 && num1 < num2 );
 
 
+        System.out.println("----------------------------------------------------------------------------");
+
+
+        byte b3 = 100;
+        byte b4 = 19;
+        byte res2 = (byte)(b1 + b2);
+        System.out.println(res2);
+        System.out.println(b3);
+        System.out.println(b4);
+
+
+        byte b5 = 100;
+        byte b6 = 127;
+        short res3 = (short) (b5 + b6);
+        System.out.println(res3);
+
+        System.out.println("------------------------------------");
+
+        num1 = 100;
+        num2 = 50;
+        if (--num1 < 50 && num2++ > 50);
+        System.out.println(--num1 < 50 &&  num2++ < 100);
+        System.out.println(num1);
+        System.out.println(num2);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
