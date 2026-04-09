@@ -3,7 +3,7 @@ package com.java.fundamentals;
 import java.util.Scanner;
 
 public class PriceCalculator {
-    static void main(String [] args) {
+    public static void main(String [] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("enter Product price: ");
@@ -33,10 +33,9 @@ public class PriceCalculator {
             discountPercentage += 10;
         else if (age <= 65 && age > 45) {
             discountPercentage += 8;
-        } else if (age <= 45 && age >25 ) {
+        } else if (age <= 45 && age >=25 ) {
             discountPercentage += 5;
-        }else
-            discountPercentage = 0;
+        }
         discountPrice = productPrice * discountPercentage/100;
         priceAfterDiscount = productPrice - discountPrice;
         centralTax = priceAfterDiscount * 2.5/100;
