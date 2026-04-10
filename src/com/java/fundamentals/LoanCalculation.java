@@ -2,7 +2,7 @@ package com.java.fundamentals;
 
 import java.util.Scanner;
 
-public class LoanCaluculation {
+public class LoanCalculation {
     public static void main(String []args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,13 +24,13 @@ public class LoanCaluculation {
             interestPercentage = 12;
         }else {
             System.out.println("enter valid time: ");
-            return;
+            return ;
         }// calculate interest amount
         interestAmount = loanAmount * interestPercentage /100;
         // final amount
         loanAfterInterest = loanAmount + interestAmount;
         emiformonth = loanAfterInterest / (time*12);
-        System.out.println("intrest amount: " + interestAmount);
+        System.out.println("interest amount: " + interestAmount);
         System.out.println("final amount: " + loanAfterInterest);
         System.out.println("emi for month: " + emiformonth);
 
