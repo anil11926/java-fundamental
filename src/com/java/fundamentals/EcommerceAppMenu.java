@@ -6,7 +6,7 @@ public class EcommerceAppMenu {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("--------------------------------------------------");
-        System.out.println("Welcome to E-Commerce App");
+        System.out.println("             Welcome to E-Commerce App");
         System.out.println("--------------------------------------------------");
         System.out.println("Menu");
         System.out.println("1.Customer");
@@ -18,7 +18,9 @@ public class EcommerceAppMenu {
         int mainMenu = scanner.nextInt();
         switch (mainMenu) {
             case 1:
-                System.out.println("Welcome to Customer Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("        Welcome to Customer Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                 System.out.println("1.Signup");
                 System.out.println("2.Login");
                 System.out.println("enter your input 1 or 2");
@@ -33,7 +35,9 @@ public class EcommerceAppMenu {
                 }
                 break;
             case 2:
-                System.out.println("Welcome to Order Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("          Welcome to Order Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                 System.out.println("1.New order");
                 System.out.println("2.Existing Order");
                 System.out.println("enter your inputs ( 1 or 2)");
@@ -48,7 +52,9 @@ public class EcommerceAppMenu {
                 }
                 break;
             case 3:
-                System.out.println("Welcome to product Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("         Welcome to product Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                 System.out.println("1.Buy the Product ");
                 System.out.println("2.Add product to cart");
                 System.out.println("enter your inputs (1 or 2)");
@@ -63,7 +69,9 @@ public class EcommerceAppMenu {
                 }
                 break;
             case 4:
-                System.out.println("Welcome to Payment Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("          Welcome to Payment Section");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                 System.out.println("1.UPI payment");
                 System.out.println("2.Crard Payments");
                 System.out.println("enter your inputs (1 or 2)");
@@ -79,7 +87,9 @@ public class EcommerceAppMenu {
                 }
                 break;
             case 5:
-                System.out.println("Exit");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("         Exit");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~");
                 break;
             default:
                 System.out.println("invalid option");
