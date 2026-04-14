@@ -32,7 +32,7 @@ public class LoanCalculation {
         emiformonth = loanAfterInterest / (time*12);
         System.out.println("interest amount: " + interestAmount);
         System.out.println("final amount: " + loanAfterInterest);
-        System.out.println("emi for month: " + emiformonth);
+        System.out.println("Emi for month: " + emiformonth);
 
 
     }
