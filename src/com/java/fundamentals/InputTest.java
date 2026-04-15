@@ -34,7 +34,7 @@ public class InputTest {
         double averageMarks = scanner.nextDouble();
         System.out.println("average marks : " + averageMarks);
 
-        System.out.println("enter is stoack Available: Ture/false");
+        System.out.println("enter is stock Available: Ture/false");
         boolean isStockAvailable = scanner.nextBoolean();
         System.out.println("is stock Available: " + isStockAvailable);
 
