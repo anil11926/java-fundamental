@@ -14,7 +14,7 @@ public class InputTest {
         short marks = scanner.nextShort();
         System.out.println("marks: " + marks);
 
-        System.out.println("enter salary");
+        System.out.println("Enter salary");
         int salary = scanner.nextInt();
         System.out.println("salary: " + salary);
 
