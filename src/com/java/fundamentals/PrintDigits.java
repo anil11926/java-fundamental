@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrintDigits {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number");
+        System.out.println("Enter the number");
         int number = sc.nextInt();
         int digit;
         while (number > 0){
