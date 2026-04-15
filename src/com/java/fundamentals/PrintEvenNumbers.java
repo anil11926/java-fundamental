@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrintEvenNumbers {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the Range: ");
+        System.out.println("Enter the Range: ");
         int range = sc.nextInt();
         int number = 1;
         while (number <= range) {
