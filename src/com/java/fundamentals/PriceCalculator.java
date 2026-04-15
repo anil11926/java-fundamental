@@ -42,7 +42,7 @@ public class PriceCalculator {
         stateTax = priceAfterDiscount * 2.5/100;
         System.out.println("price after discount: " + priceAfterDiscount);
         finalPrice = stateTax + centralTax + priceAfterDiscount;
-        System.out.println("product price: " + productPrice);
+        System.out.println("Product price: " + productPrice);
         System.out.println("age: " + age);
         System.out.println("discount price: " + discountPrice);
         System.out.println("price after Discount: "+ priceAfterDiscount);
