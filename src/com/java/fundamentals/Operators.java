@@ -29,7 +29,7 @@ public class Operators {
         System.out.println(num1);
         System.out.println(num2);
 
-        System.out.println("*****************************************************************************");
+        System.out.println("************************************************************************");
 
 
         num1 = 32;
@@ -37,7 +37,7 @@ public class Operators {
         System.out.println( num1++ > num2 && num1 < num2 );
 
 
-        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------------------");
 
 
         byte b3 = 100;
