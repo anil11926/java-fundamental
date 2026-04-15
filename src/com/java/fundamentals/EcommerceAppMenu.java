@@ -61,7 +61,7 @@ public class EcommerceAppMenu {
                 int productMenu = scanner.nextInt();
                 switch (productMenu) {
                     case 1:
-                        System.out.println("You Bought the product Successfully");
+                        System.out.println("You Bought the Product Successfully");
                         break;
                     case 2:
                         System.out.println("Product added to cart Successfully");
