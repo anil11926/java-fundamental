@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ProductData {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter Product Name");
+        System.out.println("Enter Product Name");
         String productName = sc.nextLine();
         System.out.println("Enter Discount Percentage ");
         byte discountPercentage = sc.nextByte();
