@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SwitchTest {
     static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
-        System.out.println("enter Day: ");
+        System.out.println("Enter Day: ");
         int day = Scanner.nextInt();
         switch (day) {
             case 1:
