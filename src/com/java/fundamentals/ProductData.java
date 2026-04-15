@@ -1,5 +1,4 @@
 package com.java.fundamentals;
-
 import java.util.Scanner;
 
 public class ProductData {
