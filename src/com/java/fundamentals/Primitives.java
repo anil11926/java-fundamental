@@ -46,7 +46,7 @@ public class Primitives {
         System.out.println("---------------------------------------------------------------------------");
         System.out.println("Salary In Lakhs: " + salaryInLakhs );
         System.out.println("OTP: " + otp);
-        System.out.println("Laptop Price" + laptopPrice);
+        System.out.println("Laptop Price " + laptopPrice);
 
         // long
         // have to add L at end of variable
