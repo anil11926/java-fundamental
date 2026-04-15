@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SumOftwonumbers {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("entert First number");
+        System.out.println("enter First number");
         long firstNumber = sc.nextLong();
         System.out.println("enter Second number");
         long secondNumber = sc.nextLong();
