@@ -20,3 +20,21 @@ public class CountOfDigits {
         sc.close();
     }
 }
+
+
+class Practice{
+    static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+            int sum1 = 0;
+            int digit;
+            while (num1>0){
+                digit = num1 % 10;
+                sum1 = sum1 + digit;
+                num1 = num1/10;
+
+        }
+        System.out.println(sum1);
+
+    }
+}
