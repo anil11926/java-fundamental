@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class SumOfDigits {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int num =scanner.nextInt();
+        long num =scanner.nextInt();
         while (num >=10){
-            int sum = 0;
+            long sum = 0;
             while (num > 0){
                 sum = sum + num%10;
                 num = num/10;
@@ -17,3 +17,5 @@ public class SumOfDigits {
         System.out.println(num);
     }
 }
+
+
